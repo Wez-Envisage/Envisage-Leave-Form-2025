@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>2025 Envisage Leave Form</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #fef6f6;
+      color: #444;
+      margin: 0;
+      padding: 2rem;
+    }
+
+    .container {
+      max-width: 600px;
+      margin: auto;
+      background-color: #ffffff;
+      padding: 2rem;
+      border-radius: 20px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+
+    h1 {
+      text-align: center;
+      font-size: 1.8rem;
+      color: #9c6b99;
+    }
+
+    label {
+      display: block;
+      margin-top: 1.2rem;
+      font-weight: 500;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    input[type="number"],
+    input[type="date"],
+    textarea,
+    select {
+      width: 100%;
+      padding: 0.6rem;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      margin-top: 0.4rem;
+      font-size: 1rem;
+      background-color: #fff5fa;
+    }
+
+    textarea {
+      resize: vertical;
+    }
+
+    button {
+      display: block;
+      width: 100%;
+      margin-top: 2rem;
+      padding: 0.8rem;
+      font-size: 1.1rem;
+      background-color: #b9d7ea;
+      border: none;
+      border-radius: 10px;
+      color: #333;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #a0c4db;
+    }
+
+    iframe {
+      display: none;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>2025 Envisage Leave Form</h1>
+    <form action="https://docs.google.com/forms/d/e/1FAIpQLSecYQV0ieh8MBfH4vwTrFYUJ_DRb_o-Ev0lDOe-BIbU3_0a6A/formResponse" method="POST" target="hidden_iframe" onsubmit="window.submitted=true;">
+      
+      <label>Email</label>
+      <input type="email" name="entry.305095312" required>
+
+      <label>Name</label>
+      <input type="text" name="entry.1982969022" required>
+
+      <label>Office</label>
+      <select name="entry.1046346574" required>
+        <option value="">Select...</option>
+        <option value="Chiang Rai">Chiang Rai</option>
+        <option value="Remote">Remote</option>
+      </select>
+
+      <label>Date of leave applied for</label>
+      <select name="entry.359326609" required>
+        <option value="">Select...</option>
+        <option value="0.5 day Morning">0.5 day Morning</option>
+        <option value="0.5 day Afternoon">0.5 day Afternoon</option>
+        <option value="1 day">1 day</option>
+        <option value="2 days">2 days</option>
+        <option value="3 days">3 days</option>
+        <option value="4 days">4 days</option>
+        <option value="5 days">5 days</option>
+        <option value="other">other</option>
+      </select>
+
+      <label>Date of Leave starts:</label>
+      <input type="date" name="entry.1802309553" required>
+
+      <label>Date of Leave ends:</label>
+      <input type="date" name="entry.1030123090" required>
+
+      <label>First day returns to work:</label>
+      <input type="date" name="entry.363506732" required>
+
+      <label>Type of Leave (part1)</label>
+      <select name="entry.48987482" required>
+        <option value="">Select...</option>
+        <option value="Sick Leave">Sick Leave</option>
+        <option value="Personal Leave">Personal Leave</option>
+        <option value="Vacation Leave">Vacation Leave</option>
+        <option value="Others">Others</option>
+      </select>
+
+      <label>Additional Detail of part 1</label>
+      <textarea name="entry.615937478" rows="4"></textarea>
+
+      <label>Type of Leave (Part2)</label>
+      <select name="entry.1564695905" required>
+        <option value="">Select...</option>
+        <option value="Paid">Paid</option>
+        <option value="Unpaid">Unpaid</option>
+      </select>
+
+      <label>Contact Numbers</label>
+      <input type="number" name="entry.1757234982" required>
+
+      <button type="submit">Submit</button>
+    </form>
+    <iframe name="hidden_iframe" onload="if(window.submitted) { alert('Form submitted successfully!'); window.submitted = false; }"></iframe>
+  </div>
+
+  <script>
+    window.submitted = false;
+  </script>
+</body>
+</html>
